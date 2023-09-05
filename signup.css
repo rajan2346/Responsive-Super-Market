@@ -1,0 +1,30 @@
+#signuppage{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* justify-content: center; */
+    padding: 55px;
+    /* align-content: space-evenly; */
+    
+    
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding-left:106px;
+    padding-right: 70px;
+    padding-top:10px;
+}
+
+.signup h1{
+    padding-bottom: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px;
+}

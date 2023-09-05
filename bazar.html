@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SabKaBazaar</title>
+    <script src="bazaar.js"></script>
+    <link rel="stylesheet" href="bazaar.css">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="loading",loading="lazy">
+        </div>
+        
+            <ul class="item">
+            <li  id="home"><a href="#home">Home</a></li>
+            <li  id="products"><a href="#products">Products</a></li>
+        </ul>
+        <ul class="login">
+            <li  id="signin"><a href="#SignIn">SignIn</a></li>
+            <li  id="register"><a href="#Register">Register</a></li>
+        </ul>
+    </nav>
+    <hr id="navline">
+
+    <div class="slideshow">
+        <div class="slide " >
+            <img src="offer1.jpg" alt="">
+        </div>
+        <div class="slide xx">
+            <img src="offer2.jpg" alt="">
+        </div>
+        <div class="slide xx">
+            <img src="offer3.jpg" alt="">
+        </div>
+        <div class="slide xx">
+            <img src="offer4.jpg" alt="">
+        </div>
+        <div class="slide xx">
+            <img src="offer5.jpg" alt="">
+        </div>
+        <a class="prev" onclick="changeslide(-1)">PREV</a>
+        <a class="next" onclick="changeslide(1)">NEXT</a>
+
+        <div class="slidedot">
+           <span class="dot" onclick="currentslide(1)"></span>
+           <span class="dot" onclick="currentslide(2)"></span>
+           <span class="dot"  onclick="currentslide(3)"></span>
+           <span class="dot" onclick="currentslide(4)"></span>
+           <span class="dot" onclick="currentslide(5)"></span>
+        </div>
+    </div>
+    <hr>
+
+    <section id="fav">
+        <div id="img1">
+            <img src="fruits.png" alt="loading", loading="lazy">
+        </div>
+        <div id="cont1">
+        <h2>Fruits & Vegetable</h2>
+        <p>
+            A variety of fruits and vegetables.
+        </p>
+        <button class="button">Explore fruit-and-veg</button>
+        </div>
+    </section>
+    <hr>
+    
+
+    <section id="bakery">
+        
+        <div id="cont2">
+        <h2>Bakery Cakes and Dairy</h2>
+        <p>
+            The best cupcakes,cookies,cakes,cheesecakes,fresh breads, biscotti,muffins,bagels,fresh coffee,milk and more.
+        </p>
+        <button class="button">Explore bakery-cakes-dairy</button>
+        </div>
+        <div id="img2">
+            <img src="bakery.png" alt="loading", loading="lazy">
+        </div>
+    </section>
+    <hr>
+    
+    <section id="beverages">
+        <div id="img3">
+            <img src="beverages.png" alt="loading", loading="lazy">
+        </div>
+        <div id="cont3">
+        <h2>Beverages</h2>
+        <p>
+           Our beverage department will ensure your fridge is always fully stocked.Shop for soda,juice,beer and more.
+        </p>
+        <button class="button">Explore beverages</button>
+        </div>
+    </section>
+    <hr>
+    
+    <section id="beauty">
+       
+        <div id="cont4">
+        <h2>Beauty and Hygiene</h2>
+        <p>
+            Buy beauty and personal care products online in India at best prices.
+        </p>
+        <button class="button">Explore beauty-hygiene</button>
+        </div>
+        <div id="img4">
+            <img src="beauty.png" alt="loading", loading="lazy">
+        </div>
+    </section>
+    <hr>
+    
+    <section id="baby">
+        <div id="img5">
+            <img src="baby.png" alt="loading", loading="lazy">
+        </div>
+        <div id="cont5">
+        <h2>Baby Care</h2>
+        <p>
+            Shop online for Baby Products,Diapers,Skin Care Products,etc.
+        </p>
+        <button class="button">Explore baby</button>
+        </div>
+    </section>
+    <hr>
+    <footer id="foot">
+        <div class="footer">
+                Copyright &copy; 2011-2018 Sabka Bazaar Grocery Supplies Pvt Ltd
+             
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
